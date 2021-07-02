@@ -1,0 +1,45 @@
+html, body {
+  margin padding: 0;
+}
+
+body{
+  background-color: rgb(83, 117, 89);
+}
+
+.container{
+  margin:0;
+  padding:0;
+}
+
+.chatbox .textRec{
+  text-align: left;
+}
+
+.chatbox{
+  position: relative;
+  top: 50vh;
+  left: 30%;
+  display: block;
+  background-color: white;
+  overflow-y: scroll;
+  overflow-x: none;
+  margin-bottom: 3px;
+  width: 400px;
+  height: 300px;
+}
+
+#textInput{
+  position: relative;
+  top: 50vh;
+  left: 30%;
+  width: 350px;
+  margin-left: -3px;
+}
+
+#enter{
+  position: relative;
+  top: 50vh;
+  left: 30%;
+  padding: 10px, 5px;
+  margin:0;
+}
